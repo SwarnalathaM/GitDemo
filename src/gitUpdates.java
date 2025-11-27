@@ -11,6 +11,9 @@ public class gitUpdates {
 	    
 	    System.out.println("3rd Update by Person B");
 	    System.out.println("3rd Update by Person B");
+	    
+	    System.out.println("4th Update by Person A");
+	    System.out.println("4th Update by Person A");
 	}
 	
 	
