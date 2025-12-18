@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Smoke Testing">
+  <groups>
+  <run>
+  	<include name="Smoke"></include>
+  </run>
+  </groups>
+  <classes>
+ 	 <class name ="TestngFiles.HomeLoan" />
+ 	 <class name ="TestngFiles.PersonalLoan"/>
+ 	 <class name ="TestngFiles.CarLoan"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Regression Testing">
+  <groups>
+  <run>
+  	<include name="Regression"></include>
+  </run>
+  </groups>
+ <packages>
+ <package name ="TestngFiles"/>
+</packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

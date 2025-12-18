@@ -23,9 +23,9 @@ public class WebElementsAutomation {
 //		staticDropdownLooping(driver);
 //		dynamicDropdownBasedOnSelection(driver);
 //		dynamicDropdownBasedOnAutoSuggestion(driver);
-//		checkboxValidation(driver);
+		checkboxValidation(driver);
 //		assertionsValidation(driver);
-		radioButtonCalendarValidation(driver);
+//		radioButtonCalendarValidation(driver);
 		
 				
 		driver.quit();

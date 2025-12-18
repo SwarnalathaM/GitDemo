@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Handson Practice]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Web Elements(failed)">
+    <classes>
+      <class name="HandsonWebElements.WindowHandles">
+        <methods>
+          <include name="multipleWindowHandles"/>
+        </methods>
+      </class> <!-- HandsonWebElements.WindowHandles -->
+    </classes>
+  </test> <!-- Web Elements(failed) -->
+</suite> <!-- Failed suite [Handson Practice] -->
