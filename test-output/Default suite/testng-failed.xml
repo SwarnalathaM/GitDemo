@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestngFiles.getParameters">
+      <class name="TestngFiles.DataDrivenExcel">
         <methods>
-          <include name="getModule"/>
-          <include name="getBaseURL"/>
+          <include name="ExcelDataForAllPages"/>
         </methods>
-      </class> <!-- TestngFiles.getParameters -->
+      </class> <!-- TestngFiles.DataDrivenExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

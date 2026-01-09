@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<parameter name="BaseURL" value="https://rahulshettyacademy.com/"/>
+<test thread-count="5" name="Login Module">
+<parameter name="Learning" value="https://rahulshettyacademy.com/learning-paths"/>
+
+  <classes>
+  <class name="TestngFiles.getParameters">
+  <methods>
+ <exclude name="getModule"></exclude>
+  </methods>
+  </class>
+  </classes>
+  </test>
+    
+ <test thread-count="5" name="Learning Module">
+<parameter name="Login" value="https://rahulshettyacademy.com/locatorspractice/"/>
+  <classes>
+  <class name="TestngFiles.getParameters">
+  <methods>
+ <include name="getModule"></include>
+  </methods>
+  </class>
+  </classes>
+  </test>
+    
+</suite> <!-- Suite -->
